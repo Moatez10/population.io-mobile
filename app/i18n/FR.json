@@ -1,0 +1,141 @@
+{
+  "LOCAL_COUNTRY": “Pays”,
+  "LOCAL_WORLD": “Monde”,
+  "LOCAL_ASIA": "Asie",
+  "LOCAL_EUROPE": "Europe",
+  "LOCAL_AFRICA": "Afrique",
+  "LOCAL_AFRICA": "Afrique",
+  "LOCAL_NORTH_AMERICA": "Amérique du Nord",
+  "LOCAL_SOUTH_AMERICA": "Amérique du Sud",
+  "LOCAL_OCEANIA": "Océanie",
+
+  "HOME": "Accueuil",
+
+  "POP_IO": "Population.io",
+
+  "MOBILE_LANGUAGE": "Langue",
+  "MOBILE_LANGUAGE_EN": "Anglais",
+  "MOBILE_LANGUAGE_ES": "Espagnol",
+
+  "MOBILE_MENU_POP_STATISTIC": "Vos statistiques Population.io",
+  "MOBILE_MENU_REL_AGE_WORLD": "Age relatif monde",
+  "MOBILE_MENU_REL_AGE_COUNTRY": "Age relativ pays",
+  "MOBILE_MENU_MILESTONES": "Étapes importantes",
+  "MOBILE_MENU_B_B": "Copains d'anniversaire",
+  "MOBILE_MENU_LIFE_EXP": "Éspèrance de vie",
+  "MOBILE_MENU_D_O_D": "Date de décès",
+
+  "LOCAL_DAY": "Jour",
+  "LOCAL_MONTH": "Mois",
+  "LOCAL_YEAR": "Année",
+  "LOCAL_YEARS": "Années",
+
+  "LOCAL_FEMALE": "Femelle",
+  "LOCAL_MALE": "Male",
+
+  "MOBILE_HEADER_TITLE": "Le projet de la population mondiale",
+  "HEADER_MENU_ABOUT": "Á propos",
+  "HEADER_MENU_METHODOLOGY": "Methodologie",
+  "HEADER_MENU_API": "API",
+
+  "MOBILE_HOME_TEXT_BIG": "Quelle est ma place dans la population mondiale??",
+  "MOBILE_HOME_TEXT_SMALL": "Quel est votre date de naissance, pays de naissance et votre sexe?:",
+  "MOBILE_HOME_FORM_SUBMIT": "go",
+
+  "ABOUT_INTRO": "Le but de Population.io est de rendre la démographie – l´étude  des populations humaines – accessible à un publique plus large. Nous croyons que les données démographiques peuvent jouer un role important dans la compréhension des développements sociaux et économiques d’aujourd’hui. Nous espérons que les personnes de toux millieux, toux âges et à travers tous les pays vont découvrir une nouvelle perspective de leur vie and trouver leur propre place dans le monde d’aujourd’hui et de demain.",
+  "ABOUT_CREDITS_CORE": "<i>Population.io</i> a été dévelopé par <a href='http://blogs.worldbank.org/team/wolfgang-fengler'>Wolfgang Fengler</a> (wfengler AT worldbank DOT org, <a href='http://twitter.com/wolfgangfengler'>@wolfgangfengler</a>), ensemble avec <a href='http://www.iiasa.ac.at/web/home/research/researchPrograms/WorldPopulation/Staff/K-C-Samir.en.html'>K.C. Samir</a> (<a href='https://twitter.com/kcsamir'>@kcsamir</a>) et <a href='http://benedikt-gross.de/'>Benedikt Groß</a> (<a href='https://twitter.com/bndktgrs'>@bndktgrs</a>).",
+  "ABOUT_CREDITS_SUPPORTED": “Ce projet est un effort volontier soutenu par la <a href='http://data.worldbank.org/'>World Bank Data Group</a> et la <a href='http://www.iiasa.ac.at/'>International Institute for Applied Systems Analysis</a> (IIASA). L’équipe apprécie également le partenariat avec La Division de la Population de l'ONU, qui a fournit les estimations et les projections, sur lesquelles notre modèle est basé(voir la méthodologie). Et tout a été rendu possible grâce aux contributions volontaires et généreuses de(récent au plus ancien):”,
+  "ABOUT_CREDITS_CONTRIBUTERS": "<a href='http://lukaszcaputa.eu/'>Łukasz Caputa</a> (js developing/consulting mobile apps), Alexandra Colón et Laura Jaramillo (Traductions ES), <a href='http://trojniak.net/'>Rafał Trójniak</a> (backend/cloud computing), <a href='http://andrewwhitby.com/'>Andrew Whitby</a> (algorithmes et mise en œuvre en Python), <a href='http://www.wu.ac.at/sozio/institut/personalextern/tkriszti'>Tamás Krisztin</a> (algorithmes et mise en œuvre en Python), <a href='http://jk-lee.com/'>Joey Lee</a> (cartes , SIG et R à portage Python), <a href='http://www.47nord.de/'>47 Nord</a> (mises en page et la mise en œuvre de la version α) et Emi Suzuki (données démographiques).",
+  "ABOUT_DISCLAIMER": "Les valeurs interpolées utilisés dans l'application ont été développés par l'équipe de <i>Population.io</i> et ont été dérivées des différentes séries de projections et d´estimations publiées dans le </a> <a href='http://esa.un.org/wpp/'> World Population Prospects, révision 2012 de la <a href='http://www.un.org/en/development/desa/population/' Division de la Population de l'ONU. Ils reflètent les estimations les plus actuelles pour chaque pays ainsi que pour le monde entier. Il reste des problèmes au niveau de la qualité des données, en particulier pour les pays en développement. Il faut également noter que, particulièrement pour la projection de l’espérance de vie, le système calcule les points médians des fonction de probabilité (voir la section sur la méthodologie)  L'espérance de vie, cependant, est déterminée par de nombreux facteurs et  <i>Population.io</i> souligne que trois d'entre eux: l'âge, le sexe et le pays de naissance/résidence. L'espérance de vie sera également marquée par de nombreux développements futurs, dont certains seront imprévus.<br> <i>Population.io</i> n’assume aucune responsabilité pour l'exactitude des données et investira dans la modernisation du système pour que plus de données et les résultats de la modélisation supplémentaires deviennent disponibles.",
+  "ABOUT_DISCLAIMER_TITLE": "Démenti",
+
+  "METHODOLOGY_INTRO":"Population.io utilise des données démographiques officielles produites par les Nations Unies et publiées dans World Population Prospects (voir les sources de données pour plus de détails) dont la plupart est disponible dans les cycles annuels ou de 5 ans. Population.io utilise les estimations passées de 1950 à 2010 et la projection de la population moyenne jusqu'à 2100 et interpole la distribution chaque jour pour le monde et pour 200 pays (à l'exception de quelques pays très peu peuplés) et utilise les estimations et les projections des tables de mortalité del’ONU pour interpoler l'espérance de vie individuelle par date et lieu de naissance.<br><br> Pour plus d’informations, consultez notre <a href='https://github.com/worldpopulation/population.io-api/tree/master/modeling'>Methodology/Modeling</a> page.",
+
+  "METHODOLOGY_TITLE": "Méthodologie"",
+
+  "API_INTRO": "Toutes les données que vous voyez sur population.io viennent d'une API reposante qui est bien documenté avec des détails sur les méthodes et les sources des données utilisées ici:<br><br> <a href='http://api.population.io' target='_blank'>api.population.io</a><br><br> Le code source de ce site et l'API sont également disponibles sur: <a href='https://github.com/worldpopulation/'>github.com/worldpopulation</a> et les développeurs sont invités à construire à la fois sur l'application et l'API.",
+
+  "MOBILE_SUMMARY_TEASER_WORLD": "Quel est mon/br> âge relatif dans le monde?",
+  "MOBILE_SUMMARY_INTRO_WORLD": "Vous êtes plus âgé que<span>{{val1}}%</span> de la population mondiale",
+  "MOBILE_SUMMARY_TEASER_COUNTRY": "Quel est mon âge relatif</br> dans mon pays?",
+  "MOBILE_SUMMARY_INTRO_COUNTRY": "Vous êtes plus âgé que <span>{{val1}}%</span> la population en{{val2}}",
+  "MOBILE_SUMMARY_PEOPLE_YOUNGER_A_OLDER": "Il y a <span class='green number'>{{val1}}</span> de personnes moins âgé et <span class='green-light number'>{{val2}}</span> de personnes plus âgés que vous",
+  "MOBILE_SUMMARY_PEOPLE_YOUNGER_A_OLDER_COUNTRY": "Il y a <span class='blue number'>{{val1}}</span> de personnes moins âgé et <span class='blue-light number'>{{val2}}</span> de personnes plus âgés que vous",
+  "MOBILE_SUMMARY_CHART_AXIS_Y": "personnes",
+  "MOBILE_SUMMARY_CHART_AXIS_X": "âge",
+
+
+  "BROWSER_WARNING_TITLE":"Alerte browser",
+  "BROWSER_WARNING_INTRO":”Votre browser est périmé pour ce site vitrine. S'il vous plaît téléchargez un de ces browsers à jours, gratuits et excellents.”,
+
+
+  "MOBILE_MILESTONES_INTRO": "Quelles sont mes</br>étapes importantes?",
+  "MOBILE_MILESTONES_NEXT": "Votre prochaine étape importante sera en <span class='green'>{{val1}} {{val2}}</span>",
+  "MOBILE_MILESTONES_MILESTONE_LIFE_EXPECTANCY" : "Votre éspérance de vie projetée en ",
+  "MOBILE_MILESTONES_MILESTONE_1_BILLION": "<span class='black'>1.000.000.000</span> <sup>st</sup></br> personne vivante",
+  "MOBILE_MILESTONES_MILESTONE_2_BILLION": "<span class='black'>2.000.000.000</span> <sup>nd</sup></br> personne vivante",
+  "MOBILE_MILESTONES_MILESTONE_3_BILLION": "<span class='black'>3.000.000.000</span> <sup>rd</sup></br> personne vivante",
+  "MOBILE_MILESTONES_MILESTONE_4_BILLION": "<span class='black'>4.000.000.000</span> <sup>th</sup></br> personne vivante",
+  "MOBILE_MILESTONES_MILESTONE_5_BILLION": "<span class='black'>5.000.000.000</span> <sup>th</sup></br> personne vivante",
+  "MOBILE_MILESTONES_MILESTONE_6_BILLION": "<span class='black'>6.000.000.000</span> <sup>th</sup></br> personne vivante",
+  "MOBILE_MILESTONES_MILESTONE_7_BILLION": "<span class='black'>7.000.000.000</span> <sup>th</sup></br> personne vivante",
+  "MOBILE_MILESTONES_MILESTONE_8_BILLION": "<span class='black'>8.000.000.000</span> <sup>th</sup></br> personne vivante",
+  "MOBILE_MILESTONES_MILESTONE_9_BILLION": "<span class='black'>9.000.000.000</span> <sup>th</sup></br> personne vivante",
+  "MOBILE_MILESTONES_MILESTONE_10_BILLION": "<span class='black'>10.000.000.000</span> <sup>th</sup></br> personne vivante",
+  "MOBILE_MILESTONES_MILESTONE_11_BILLION": "<span class='black'>11.000.000.000</span> <sup>th</sup></br> personne vivante",
+  "MOBILE_MILESTONES_MILESTONE_NOW": "<span class='black oneline'>Maintenant</span>",
+  "MOBILE_MILESTONES_MILESTONE_18": "<span class='black oneline'>Vous avez 18 ans!</span>",
+  "MOBILE_MILESTONES_MILESTONE_BORN": "<span class='black oneline'>Born</span>",
+  "MOBILE_MILESTONES_LOCAL_YEAR": "an",
+  "MOBILE_MILESTONES_LOCAL_YEARS": "ans",
+
+  "MOBILE_BIRTHDAYS_HEADER": "Combien ai-je de copains d'anniversaire?",
+  "MOBILE_BIRTHDAYS_TEASER": "le nombre de personnes qui partagent votre anniversaire est <br><ul><li class='green'>{{sharedDay}}</li><li class='green f-lighter'>{{world}}</li></ul> <span>or</span> <ul> <li class='blue'>{{sharedDayCountry}}</li><li class='blue f-lighter'>{{country}}</li>",
+
+  "MOBILE_EXPECTANCY_HEADER": "Combien de temps<br>vais-je vivre?",
+  "MOBILE_EXPECTANCY_INTRO": "Comparez votre espérance de vie en <span class='blue'>{{country}}</span>",
+  "MOBILE_EXPECTANCY_INPUT": "choisissez un autre",
+  "MOBILE_EXPECTANCY_YEARS_OLD": "ans",
+  "MOBILE_EXPECTANCY_YEARS_LEFT": "ans à vivre",
+  "MOBILE_EXPECTANCY_AGE": "âge espéré",
+  "MOBILE_EXPECTANCY_YEARS_LONGER": "ans plus longs",
+  "MOBILE_EXPECTANCY_YEARS_SHORTER": "ans moins que",
+
+
+  "MOBILE_DEATH_HEADER": "Quel est le</br> la date de mon décès?",
+  "MOBILE_DEATH_INTRO": "Nous estimons que vous allez vivre jusqu'à <ul><li class='green'>{{deathDay}}</li><li class='green f-lighter'>{{world}}</li></ul> <span>or</span> <ul> <li class='blue'>{{deathDayCountry}}</li><li class='blue f-lighter'>{{country}}</li>",
+
+  "SHARING_HEADER": "Voulez-vous<br> partagez vos statistiques?",
+  "SHARING_TWITTER": "Partagez sur Twitter",
+  "SHARING_FACEBOOK": "Partagez sur Facebook",
+  "SHARING_LINKEDIN": "Partagez sur Linkedin",
+  "SHARING_CALENDAR": "Sauvegardez sur Calendarier",
+  "SHARING_TO_A_FRIEND_P1": "Je vais envoyer une invitation à",
+  "SHARING_EMAIL": "ami@courriel.com",
+  "SHARING_TO_A_FRIEND_P2": "bonjour de la part de",
+  "SHARING_SEND": "envoyer",
+  "SHARING_UPDATE":"Tenez moi au courant",
+  "SHARING_UPDATE_MAIL": "mon@courriel.com",
+
+  "MONTH1": "Janvier",
+  "MONTH2": "Fébruary",
+  "MONTH3": "Mars",
+  "MONTH4": "Avril",
+  "MONTH5": "Mai",
+  "MONTH6": "Juin",
+  "MONTH7": "Juillet",
+  "MONTH8": "Août",
+  "MONTH9": "September",
+  "MONTH10": "Octobre",
+  "MONTH11": "Novembre",
+  "MONTH12": "Décembre",
+
+  "MOBILE_ORDINAL_NUMBER_1":"1er",
+  "MOBILE_ORDINAL_NUMBER_2":"2e",
+  "MOBILE_ORDINAL_NUMBER_3":"3e",
+  "MOBILE_ORDINAL_NUMBER_4":"4e",
+  "MOBILE_ORDINAL_NUMBER_5":"5e",
+  "MOBILE_ORDINAL_NUMBER_6":"6e",
+  "MOBILE_ORDINAL_NUMBER_7":"7e"
+
+}
